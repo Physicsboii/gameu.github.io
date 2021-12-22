@@ -1,0 +1,121 @@
+/* desktop */
+@media only screen and (max-width: 2000px) and (min-width: 700px) {
+    body{
+        background: linear-gradient(360deg, #1A1928 0%, #1A1928 ,#1A1928 100%);
+    }
+    .main{
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    input:not(.sub){
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        font-size: 50px;
+        color: black;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+
+    h1{
+        margin-left: 20px;
+        font-size: 50px;
+        font-family: 'Space Mono', monospace;
+        color: white;
+    }
+
+    input:hover:not(.sub){
+        background: rgba(220, 221, 238, 0.81);
+    }
+
+    .winOrLoss{
+        position: absolute;
+        left: 70%;
+        top: 40%;
+        font-size: 60px;
+        font-family: 'Space Mono', monospace;
+        color: white;
+    }
+
+    .sub{
+        position: absolute;
+        left: 70%;
+        top: 69%;
+        border: 2px solid darkgreen;
+        height: 40px;
+        width: 90px;
+        color: rgba(0, 0, 0, 1);
+        font-family: cursive;
+        box-sizing: border-box;
+        background: rgba(220, 221, 238, 0.81);
+        font-family: 'Space Mono', monospace;
+        border: 1px solid #F178B6;
+        font-size: 16px;
+        padding: 2px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+    body{
+        background-color: #00b712;
+        background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    }
+
+    .main{
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    input:not(.sub){
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        font-size: 25px;
+        color: black;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+
+    h1{
+        margin-left: 20px;
+        font-size: 30px;
+        font-family: cursive, sans-serif;
+        color: mediumblue;
+    }
+
+    input:hover:not(.sub){
+        background-color: red;
+    }
+
+    .winOrLoss{
+        position: absolute;
+        left: 65%;
+        top: 70%;
+        font-size: 30px;
+        font-family: cursive;
+        color: red;
+    }
+
+    .sub{
+        position: absolute;
+        left: 85%;
+        top: 75%;
+        border: 2px solid darkgreen;
+        height: 30px;
+        width: 80px;
+        background-color: yellow;
+        color: darkred;
+        font-family: cursive;
+        border-radius: 20px;
+        font-size: 14px;
+        padding: 2px;
+    }
+}
